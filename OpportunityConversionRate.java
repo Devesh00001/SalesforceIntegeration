@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Objects;
 
-import static com.example.demo.OldConnection.getResponse;
+import static com.example.demo.Connection.getResponse;
 @RestController
 public class OpportunityConversionRate {
     static String endpoint = "/services/apexrest/OpportunityConversionRate";

@@ -16,6 +16,7 @@ public class OldConnection {
     private static final String API_KEY = result[1];
 
     @Nullable
+
     public static JSONArray getResponse(String endpoint) throws Exception {
         URL url = new URL(API_URL + endpoint);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
